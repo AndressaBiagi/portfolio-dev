@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://kit.fontawesome.com/338b0da595.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Andressa Biagi Dev</title>
+  </head>
+
+  <body>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Andressa Biagi</div>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#languages"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Linguagens</a
+            >
+          </li >
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projetos</a
+            >
+          </li class="nav__link">
+          <li>
+            <a href="#contact" class="nav__link--anchor nav__link--anchor-primarybtn"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="flex flex-1">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="about-me__picture--mask">
+              <img
+                class="about-me__pic"
+                src="./assets/media/WhatsApp Image 2022-08-01 at 15.06.17.jpeg"
+                alt="Picture of me"
+              />
+            </figure>
+            <h1 class="about-me__info--title">
+              Olá! sou <span class="text--pink">Andressa Biagi</span>
+            </h1>
+            <!--aqui da p usar a tag strong para com a classe text--pink para grifar algo-->
+            <p class="about-me__info--paragraph">
+              Uma
+              <strong class="text--pink"
+                >desenvolvedora de software </strong>self-taught, designer e
+                ilustradora nas horas vagas.
+              
+              
+            </p>
+            <div class="about-me__links">
+              <a target="_blank" class="about-me__link" href="https://www.linkedin.com/in/andressa-biagi/">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a target="_blank" class="about-me__link" href="https://github.com/AndressaBiagi">
+                <i class="fa-brands fa-square-github"></i>
+              </a>
+              <a target="_blank" class="about-me__link" href="">
+                <i class="fa-regular fa-file-pdf"></i>
+              </a>
+              <a target="_blank" class="about-me__link" href="mailto:andressajbiagi@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+            
+
+
+          </div>
+          <figure class="about-me__img--container">
+            <img
+              class="about-me__img"
+              src="./assets/media/undraw_web_devices_re_m8sc.svg"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            As <span class="text--pink">tecnologias e ferramentas</span> que uso
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  alt="Html Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  alt="CSS Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  alt="JavaScript Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">JavaScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
+                  alt="TypeScript Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">TypeScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                  alt="bootstrap"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">Bootstrap</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                  alt="java"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">Java</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Veja alguns dos meus <span class="text--pink">projetos</span>
+          </h1>
+          <ul class="project__list">
+            <!-- COLOR PALETTE GENERATOR PROJECT-->
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/media/color palette generator.png"
+                class="project__img" alt="colorPaletteGenerator">
+                <div class="project__description">
+                  <h3 class="project__description--title">Gerador de paleta de cores</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML5 | CSSS3 | JAVASCRIPT 
+                  </h4>
+                  <p class="project__description--paragraph">
+                      Gerador de paleta de cores com comandos 'lock' para bloquear a cor 
+                      referente a coluna. Sistemas 'lock' e de aleatoriedade, para a geração dos códigos hexadecimais, 
+                      criados com Javascript.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="https://github.com/AndressaBiagi/colorPaletteGenerator" target="_blank" class="project__description--link">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="https://andressabiagi.github.io/colorPaletteGenerator/" target="_blank" class="project__description--link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+             <!--ORLANDOCITY LANDING PAGE -- EM PROCESSO DE REFATORAÇÃO --
+             <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/media/color palette generator.png"
+                class="project__img" alt="colorPaletteGenerator">
+                <div class="project__description">
+                  <h3 class="project__description--title">Orlando City landing page</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML5 | CSS3 | JAVASCRIPT | JQUERY | BOOTSTRAP
+                  </h4>
+                  <p class="project__description--paragraph">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum itaque labore dolores ratione quo. Architecto commodi facere consectetur, ab sequi similique minus deleniti soluta placeat voluptas repellat, veniam reiciendis explicabo.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" target="_blank" class="project__description--link">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="" target="_blank" class="project__description--link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </li>-->
+
+            <!--INSTAGRAM LANDING PAGE-->
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/media/intagram login page.jpeg"
+                class="project__img" alt="colorPaletteGenerator">
+                <div class="project__description">
+                  <h3 class="project__description--title">Instagram Login-page</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML5 | CSS3
+                  </h4>
+                  <p class="project__description--paragraph">
+                    Clone da pagina de login do instagram usando o modo de layout <strong>Flexbox</strong> para facilitar a construção da responsividade da página.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" target="_blank" class="project__description--link">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="" target="_blank" class="project__description--link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>                    
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+             <!--BEECROWD JAVA CHALLENGES-->
+             <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/media/beecrowd score.jpeg"
+                class="project__img" alt="colorPaletteGenerator">
+                <div class="project__description">
+                  <h3 class="project__description--title">Score Beecrowd</h3>
+                  <h4 class="project__description--sub-title">
+                    JAVA
+                  </h4>
+                  <p class="project__description--paragraph">
+                    Meu score no site de exercícios de lógica de programação, Beecrowd, até os dias atuais! 
+                    Você pode ver minhas resoluções no meu github também!
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" target="_blank" class="project__description--link">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    
+
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--JAVASCRIPT CHALLENGES REPO-->
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/media/javascript.jpeg"
+                class="project__img" alt="colorPaletteGenerator">
+                <div class="project__description">
+                  <h3 class="project__description--title">Desafios de lógica</h3>
+                  <h4 class="project__description--sub-title">
+                    JAVASCRIPT
+                  </h4>
+                  <p class="project__description--paragraph">
+                    Desafios de lógica de programação em Javascript, para fixar e aperfeiçoar o desenvolvimento de futuros projetos!
+                    Você pode ver minhas resoluções no meu github também!
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" target="_blank" class="project__description--link">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--TYPESCRIPT CODE CHALLENGES-->
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/media/typescript.png"
+                class="project__img" alt="colorPaletteGenerator">
+                <div class="project__description">
+                  <h3 class="project__description--title">Desafios de lógica</h3>
+                  <h4 class="project__description--sub-title">
+                    TYPESCRIPT
+                  </h4>
+                  <p class="project__description--paragraph">
+                    Desafios de lógica de programação em Typescript, para fixar e me preparar para os estudos do framework React, que será meu próximo foco de estudos!
+                    Você pode ver minhas resoluções no meu github também!
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" target="_blank" class="project__description--link">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <div class="footer__logo">Andressa Biagi</div>
+          <span class="footer__logo--go-top">
+            Top
+            <i class="fa-solid fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a href="https://github.com/AndressaBiagi" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/andressa-biagi/" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank">Linkedin</a>
+          <a href="mailto:andressajbiagi@gmail.com" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank">E-mail</a>
+          <a href="caminho pasta" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank">Currículo</a>
+        </div>
+        
+      </div>
+      <div class="footer__copyright">
+        Copyright &copy; 2022 Andressa Biagi
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
