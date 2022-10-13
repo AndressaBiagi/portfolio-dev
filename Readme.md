@@ -11,3 +11,8 @@
  - Efeitos com os selectors :hover e :after também foram implementados para que houvesse essa transição quando o recrutador passar o mouse na imagem.
 
  <img src="./assets/media/e-portfolio-print02.jpeg" width="1080">
+ 
+ ## Visite atráves do link:
+
+https://andressabiagi.github.io/AndressaBiagiDevE-portfolio/
+
