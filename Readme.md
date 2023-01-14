@@ -14,5 +14,5 @@
  
  ## Visite atráves do link:
 
-https://andressabiagi.github.io/AndressaBiagiDevE-portfolio/
+andressabiagi.github.io/AndressaBiagiDevE-portfolio
 
